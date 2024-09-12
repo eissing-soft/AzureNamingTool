@@ -1,23 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
+  name: azure-naming-tool
   description: |
-    Backstage is an open-source developer portal that puts the developer experience first.
+    The Azure Naming Tool was created to help administrators define and manage their naming conventions, while providing a simple UI and REST-API for users to generate a compliant name.
   links:
-    - title: Website
-      url: http://backstage.io
+    - title: Microsoft best pratices for azure naming and tagging 
+      url: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging
     - title: Documentation
       url: https://backstage.io/docs
     - title: Storybook
       url: https://backstage.io/storybook
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
-  annotations:
-    github.com/project-slug: backstage/backstage
-    backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://backstage.io
 spec:
-  type: library
+  type: website
   owner: CNCF
   lifecycle: experimental
