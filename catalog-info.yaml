@@ -5,7 +5,7 @@ metadata:
   description: |
     The Azure Naming Tool was created to help administrators define and manage their naming conventions, while providing a simple UI and REST-API for users to generate a compliant name.
   links:
-    - title: Microsoft best pratices for azure naming and tagging 
+    - title: Microsoft best pratices
       url: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging
     - title: Documentation
       url: https://backstage.io/docs
